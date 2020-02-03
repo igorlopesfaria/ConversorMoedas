@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/amazon_green">
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/radius_button_main" />
+            <solid android:color="@color/disabled_fill" />
+        </shape>
+    </item>
+    <item>
+        <ripple android:color="@color/ripple_light">
+            <item android:id="@+id/background">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/radius_button_main" />
+                    <gradient
+                        android:endColor="@color/amazon_green_accent_dark"
+                        android:startColor="@color/amazon_green_accent_light" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</selector>

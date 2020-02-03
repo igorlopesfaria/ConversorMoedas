@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="radius_edittext">8dp</dimen>
+    <dimen name="radius_button_main">8dp</dimen>
+    <dimen name="radius_common_cardview">8dp</dimen>
+    <dimen name="radius_placeholder">4dp</dimen>
+    <dimen name="radius_onboarding_cardview">20dp</dimen>
+
+    <dimen name="height_edittext">48dp</dimen>
+    <dimen name="height_button">48dp</dimen>
+    <dimen name="height_placeholder_small">12dp</dimen>
+    <dimen name="height_placeholder_normal">16dp</dimen>
+    <dimen name="height_placeholder_big">28dp</dimen>
+    <dimen name="height_placeholder_extra_big_card">220dp</dimen>
+
+    <dimen name="width_placeholder_large">222dp</dimen>
+    <dimen name="width_placeholder_normal">122dp</dimen>
+    <dimen name="width_placeholder_small">72dp</dimen>
+
+    <dimen name="space_nothing">1dp</dimen>
+    <dimen name="space_little">2dp</dimen>
+    <dimen name="space_minimun">4dp</dimen>
+    <dimen name="space_small">8dp</dimen>
+    <dimen name="space_normal">10dp</dimen>
+    <dimen name="space_basic">14dp</dimen>
+    <dimen name="space_medium">16dp</dimen>
+    <dimen name="space_large">22dp</dimen>
+    <dimen name="space_large_medium">30dp</dimen>
+    <dimen name="space_big">32dp</dimen>
+    <dimen name="space_extra">40dp</dimen>
+    <dimen name="space_extra_large">48dp</dimen>
+    <dimen name="space_extra_big">64dp</dimen>
+
+
+    <dimen name="text_tips">10sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_normal">14sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_big">18sp</dimen>
+    <dimen name="text_large">20sp</dimen>
+    <dimen name="text_title_big">20sp</dimen>
+    <dimen name="text_toolbar">16sp</dimen>
+    <dimen name="text_subtitle">14sp</dimen>
+    <dimen name="text_title_huge">30sp</dimen>
+
+    <dimen name="button_progress_bar">20dp</dimen>
+    <dimen name="elevation_cardview_default">4dp</dimen>
+
+
+    <dimen name="border_item_list">2dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+</resources>

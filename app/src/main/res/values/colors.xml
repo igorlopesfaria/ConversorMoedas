@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#85bb65</color>
+    <color name="colorPrimaryDark">#44a830</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="color_currency">#85bb65</color>
+
+
+    <color name="amazon_green">#46B231</color>
+    <color name="amazon_green_accent_light">#4bbc34</color>
+    <color name="amazon_green_accent_dark">#44a830</color>
+
+    <color name="disabled_fill">#1a808080</color>
+    <color name="ripple_light">#1f000000</color>
+
+
+    <color name="basic_text_dark">#222938</color>
+    <color name="basic_text">#666666</color>
+
+    <color name="dark">#222938</color>
+    <color name="dark_10">#1a222938</color>
+    <color name="dark_20">#33222938</color>
+    <color name="dark_35">#59222938</color>
+    <color name="dark_60">#99222938</color>
+    <color name="dark_90">#90222938</color>
+    <color name="dark_dark">#0e0e0e</color>
+    <color name="dark_light">#424242</color>
+
+    <color name="marble">#fbfbfb</color>
+
+    <color name="placeholder">#EFF0F1</color>
+    <color name="placeholder_background">#bbbbbb</color>
+    <color name="colorSsplashTitle">#efab0b</color>
+
+    <color name="editext_hint">#999999</color>
+    <color name="editext_text">#333333</color>
+    <color name="editext_color">#f0f4f8</color>
+
+</resources>

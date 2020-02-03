@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_card"
+    android:layout_marginStart="@dimen/space_small"
+    android:layout_marginEnd="@dimen/space_small"
+    android:layout_marginBottom="@dimen/space_small"
+    android:elevation="@dimen/elevation_cardview_default">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="@dimen/space_normal"
+        android:orientation="horizontal">
+
+        <com.github.siyamed.shapeimageview.CircularImageView
+            android:id="@+id/flag_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_circle_gray_loading_image"
+            app:siBorderColor="@color/dark_10"
+            app:siBorderWidth="@dimen/border_item_list" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title"
+            style="@style/ConversorMoedas.Text.ItemSimpleList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/space_normal"
+            android:gravity="center|start"
+            tools:text="Real" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

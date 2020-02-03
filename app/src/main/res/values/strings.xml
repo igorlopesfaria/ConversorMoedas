@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Conversor de Moedas</string>
+
+
+    <string name="title_main_currency">Escolha Moeda Principal</string>
+    <string name="button_retry">Tentar novamente</string>
+    <string name="erro_title">Ops! Encontramos um problema</string>
+    <string name="generic_error">Tente novamente refazer a operação.</string>
+    <string name="converter">Converter</string>
+    <string name="converting">Calculando</string>
+</resources>

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Dólar EUA",
+    "short_name": "USD",
+    "symbol": "$",
+    "flag": "https://static.significados.com.br/foto/estados-unidos.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Real",
+    "short_name": "BLR",
+    "symbol": "R$",
+    "flag": "https://static.significados.com.br/foto/brasil-6f.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Euro",
+    "short_name": "EUR",
+    "symbol": "€",
+    "flag": "https://st2.depositphotos.com/1184748/11848/v/600/depositphotos_118488460-stock-video-brexit-rolling-crumpled-paper-with.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Dólar Canadense",
+    "short_name": "CAD",
+    "symbol": "C$",
+    "flag": "https://static.significados.com.br/foto/canada.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Libra Esterlina",
+    "short_name": "GBP",
+    "symbol": "£",
+    "flag": "https://cdn.shortpixel.ai/client/q_glossy,ret_img/http://www.etcintercambio.com.br/novosite/wp-content/uploads/2017/03/uk-flag-1-650x357.jpg"
+  }
+
+]
