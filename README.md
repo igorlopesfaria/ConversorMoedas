@@ -1,6 +1,6 @@
 # ConversorMoedas
 
 
-![GitHub Logo](/screenshots/1.png)
-![GitHub Logo](/screenshots/1.png)
-![GitHub Logo](/screenshots/1.png)
+![GitHub Logo](/screenshoot/1.png)
+![GitHub Logo](/screenshoot/1.png)
+![GitHub Logo](/screenshoot/1.png)
