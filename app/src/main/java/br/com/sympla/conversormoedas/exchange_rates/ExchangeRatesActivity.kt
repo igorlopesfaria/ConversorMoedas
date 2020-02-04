@@ -142,13 +142,12 @@ class ExchangeRatesActivity : AppCompatActivity() {
     }
 
     private fun loadRateCurrencies(exchangeRateModel: ExchangeRateModel) {
-        val valueToConvert: String = moneyETX.currencyText.replace(",", "")
+        val valueToConvert: String = moneyETX.currencyText.replace(".", "").replace(",", ".")
 
         rateCurrencyListAdapter.loadRateCurrencyList(
             exchangeRatesViewModel.lCurrency,
             exchangeRateModel,
             valueToConvert.toFloat()
-//            "1.00".toFloat()
         )
     }
 

@@ -9,7 +9,8 @@ import br.com.sympla.conversormoedas.model.CurrencyListItemModel
 import br.com.sympla.conversormoedas.model.ExchangeRateModel
 import com.github.siyamed.shapeimageview.CircularImageView
 import com.squareup.picasso.Picasso
-import java.text.DecimalFormat
+import java.text.NumberFormat
+
 
 class RateCurrencyListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
@@ -36,9 +37,9 @@ class RateCurrencyListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemV
         else
             value * 1.0f
 
-        val df: DecimalFormat = DecimalFormat("0.00");
+        val newValueFormatted: String = NumberFormat.getCurrencyInstance().format(newValue).replace("R$","")
 
-        titleTXT.text = "${currencyListItemModel.shortName} - ${currencyListItemModel.symbol} ${df.format(newValue)}"
+        titleTXT.text = "${currencyListItemModel.shortName} - ${currencyListItemModel.symbol} ${newValueFormatted}"
 
     }
 }

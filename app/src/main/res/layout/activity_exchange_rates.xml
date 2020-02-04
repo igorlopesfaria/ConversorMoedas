@@ -74,8 +74,6 @@
                 app:layout_constraintStart_toEndOf="@+id/currency_name_txt"
                 app:layout_constraintTop_toTopOf="@+id/flag_currency_img" />
 
-
-            <!--androidx.appcompat.widget.AppCompatEditText!-->
             <br.com.sympla.conversormoedas.common.CurrencyEditText
                 android:id="@+id/money_etx"
                 style="@style/ConversorMoedas.EditText"
@@ -83,7 +81,7 @@
                 android:layout_marginTop="@dimen/text_normal"
                 android:imeOptions="actionNext"
                 android:inputType="numberDecimal"
-                android:text="1.00"
+                android:text="1,00"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:showSymbol="false"
