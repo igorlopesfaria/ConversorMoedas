@@ -1,13 +1,10 @@
 package br.com.sympla.conversormoedas.common
 
-import android.app.Activity
 import android.view.View
 import androidx.annotation.IdRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
-import com.github.siyamed.shapeimageview.CircularImageView
-import java.lang.ref.WeakReference
 import kotlin.reflect.KProperty
 
 fun <T : View> viewBind(@IdRes idRes: Int) =
